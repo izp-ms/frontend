@@ -7,8 +7,73 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   template: `
+
+    <nav class="nav">
+      <div class="nav_logo">
+        <div class="nav_logo_image">
+          <img src="">
+        </div>
+        <div class="nav_logo_text">
+        <h1>postcardia</h1>
+        </div>
+      </div>
+      <div class="nav_menu">
+        <div class="nav_menu_sign">
+          <button ></button>
+        </div>
+        <div class="nav_menu_color">
+          
+        </div>
+        <div class="nav_menu_lang">
+          
+        </div>
+      </div>
+    </nav>
+
+    <section class="header">
+      <div class="header_intro">
+          <h1 class="header_intro__h">Pocztówka</h1>
+          <p class="header_intro__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue pulvinar libero, sed accumsan dolor volutpat at. Nam egestas gravida ullamcorper. Aliquam pellentesque fermentum nisl, id dictum dui imperdiet ut. Sed condimentum lobortis commodo. Donec iaculis neque id quam aliquet, non ultrices erat mattis.</p>
+      </div>
+      <div class="header_picture">
+        <img class="header_picture__img"> 
+      </div>
+      <div class="header_mosaic">
+          
+      </div>
+    </section>
+
+    <section class="download">
+      <h1 class="download_title"></h1>
+      <p class="download_text"></p>
+      <div class="download_links">
+        <div class="download_links_button">
+        
+        </div>
+        <div class="download_links_button">
+        
+        </div>
+      </div>
+      <div class="download_decoration"></div>
+    </section>
+
+
+    <section class="preview">
+      <div class="preview_profile"></div>
+      <div class="preview_profile"></div>
+      <div class="preview_profile"></div>
+    </section>
+
+    <section class="banner">
+      <div class="banner_decoration"></div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2023 POCZTOWA COMPANY                    Terms of Service |  authors</p>
+    </footer>
+
     <!--The content below is only a placeholder and can be replaced.-->
-    <div style="text-align:center" class="content">
+    <!-- <div style="text-align:center" class="content">
       <h1>
         Welcome to meeeee {{title}} {{cos}}!
       </h1>
@@ -26,7 +91,7 @@ import { RouterOutlet } from '@angular/router';
       <li>
         <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
       </li>
-    </ul>
+    </ul> -->
     <!-- <router-outlet></router-outlet> -->
   `,
   styles: [],
